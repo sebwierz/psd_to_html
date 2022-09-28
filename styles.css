@@ -30,6 +30,27 @@ nav {
     color: lightsalmon;
 }
 
-footer{
-    color: blueviolet;
+
+/* Start footer / Tobias */
+footer {
+    width: 100%;
+    background: url("images/photoshop/design-assets/bgk-footer.png") top center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-grid h3 {
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+.footer-grid p {
+    color: white;
 }
