@@ -1,5 +1,39 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    
+    background-image: url(/images/photoshop/design-assets/bgk-header.png) ;
+   
+  
+    
+}
+#logo_header{
+    
+    display: flex;
+    color: grey;
+    font-size: 30px;
+    align-content:flex-end;
+}
+
+#headerandlogo{
+    padding: 10px 200px;
+    display: flex;
+    color: grey;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 100px;
+}
+
+.navheader{
+    padding: 2px 7px 20px 7px;
+    color: white;
+    font-size: ;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav {
@@ -7,7 +41,34 @@ nav {
 }
 
 #hero-section {
-    color: blue;
+    height: 500px;
+    width: 800px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+#hrherosection{
+    width: 55px;
+    height: 4px;
+    background-color: turquoise;
+    justify-content: center;
+    
+
+}
+
+#learnmore_button{
+display: inline-block;
+color: turquoise;
+padding:  10px 10px 10px 10px;
+border-width: 2px;
+border-style: solid;
+text-transform: uppercase;
 }
 
 #our_story-section {
