@@ -11,12 +11,88 @@ nav {
 }
 
 #our_story-section {
-    color: green;
+        color: black;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        width: 900px;
+        margin: 0px auto;
 }
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin: 9rem 0px auto auto;
+}
+.OurStory {
+    width: 800px;
+    padding: 100px;}
 
-#watch-section {
-    color: darkred;
-}
+
+    #watch-section {
+        color: white;
+        background-image: url(./images/photoshop/design-assets/bgk-middle.png);
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .video {
+        width: 800px;
+        height: 150px;
+        text-align: center;
+        margin: 800px 600px;}
+
+        h3 {
+            display: block;
+            font-size: 1.17em;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        .expertise {
+            height: 50px;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .expertise h2 {
+            font-size: 30px;}
+
+            .expertise p {
+                font-size: 20px;
+            }
+
+            .line {
+                display: inline-block;
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+                border-image: initial;
+                margin: 20px;
+                padding: 0px 100px;
+            }
+    
+            #expertise-section {
+                color: black;
+                height: 500px;
+                text-align: center;
+                display: flex;
+            }
+
+            #expertise-section div {
+                width: 200px;
+                height: 150px;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding: 5px;
+                margin: 50px 20px;
+            }
+
+            
 
 #expertise-section {
     color: fuchsia;
